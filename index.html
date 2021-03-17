@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic-Bio</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div>
+            <h1>Saneliswa Majwede</h1>
+        </div>
+        <div>
+            <img src="images/tablemou.jpg">
+        </div>
+    </div>
+
+
+
+    <h2> WHICH CITY? </h2>
+
+    <div class="city">
+        <div>
+            <img src="images/newyork.jpg">
+        </div>
+        <div>
+            <h4>New York</h4>
+            <ul>
+                <li>Find New York to be full of opportunities and a great place to persue your dreams. </li>
+                <li>The city is filled with energy. There is no other city on this planet with great energy that
+                    would compete with New York.</li>
+                <li>Another thing I love about the city is the incredible diversity. You'll see all sorts of
+                    people
+                    from all over the world.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <h2> Foreign Language</h2>
+    <div class="franch">
+        <div>
+            <h4> FRENCH </h4>
+            <ol>
+                <li>French is spoken all over the world.</li>
+                <li>French is incredibly rich in culture.</li>
+                <li>It will allow me to travel anywhere in the world.</li>
+                <li>It's the language of love.</li>
+                <li>To finally understand french humor.</li>
+            </ol>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <th>Here are some few french phrases:</th>
+                </tr>
+                <tr>
+                    <th>English phrase:</th>
+                    <th>French phrase:</th>
+                </tr>
+                <tr>
+                    <td>Perfect</td>
+                    <td> Parfaite</td>
+                </tr>
+                <tr>
+                    <td>I love it here</td>
+                    <td>plais beaucoup incredible</td>
+                </tr>
+                <tr>
+                    <td>Thank you</td>
+                    <td>Merci</td>
+                </tr>
+                <tr>
+                    <td>Hello, Good morning</td>
+                    <td>Bonjour</td>
+                </tr>
+                <tr>
+                    <td> Mrs/ Mr</td>
+                    <td>Madam/Monsieur</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+    <h2> HISTORIC PLACES IN CAPE TOWN </h2>
+    <div class="containter">
+        <div class="one">
+            <div class="box-1">
+                <h4>City Hall</h4>
+                <ul>
+                    <li>Contains a french styled architechure feature.</li>
+                    <li>Cape Town city hall is one of the oldest and most central public spaces.</li>
+                    <li> Held a memorial for Mandela in 2018.</li>
+                </ul>
+            </div>
+            <div class="box-2">
+                <img src="images/cityhall.jpg">
+            </div>
+        </div>
+
+        <div class="two">
+            <div class="box-3">
+                <h4>Castle of Goodhope</h4>
+                <ul>
+                    <li>Was declared a national monument.</li>
+                    <li>The building housed everything from a church , bakery and living quarters, to various
+                        workshops,
+                        shops and prison cells, amoung other facilities.</li>
+                    <li>Yellow paint was originally chosen for the walls because it reduced the effects of the not
+                        african
+                        sun.</li>
+                </ul>
+            </div>
+            <div class="box-4">
+                <img src="images/goodhope.jpg">
+            </div>
+        </div>
+
+        <div class="three">
+            <div class="box-5">
+                <h4>Distric Six Museum</h4>
+                <ul>
+                    <li> Well situated at the edge of the area nominated as a national heritage site.</li>
+                    <li>This is an exepional museum small in size, but more inspiring and educational than many
+                        museums
+                        ten times
+                        its
+                        size.</li>
+                    <li> Distric Six Museum provides context as well as rotating exhibits on the residents who were
+                        forcibly
+                        removed
+                        from
+                        their homes.</li>
+                </ul>
+            </div>
+            <div class="box-6">
+                <img src="images/museum.jpg">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <h4>sp@gmail.com</h4>
+    </div>
+
+
+
+
+</body>
+
+<style>
+    body {
+        font-family: arial;
+        font-size: 14px;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .containter {
+        display: flex;
+    }
+
+
+    .containter div {
+        padding: 10px;
+    }
+
+    .city {
+        display: flex;
+    }
+
+
+    .box-1 {
+        flex: 2;
+
+    }
+
+    .box-2 {
+        flex: 2;
+
+    }
+
+    .box-3 {
+        flex: 2;
+
+    }
+
+    .box-4 {
+        flex: 2;
+
+    }
+
+    .box-5 {
+        flex: 2;
+
+    }
+
+    .box-6 {
+        flex: 2;
+    }
+
+
+    .one {
+        display: flex;
+
+    }
+
+    .two {
+        display: flex;
+    }
+
+    .three {
+        display: flex;
+    }
+
+    .header {
+        background-color: lightslategray;
+    }
+
+    .city {
+        background-color: lightsalmon;
+    }
+
+    h2 {
+        background-color: lightpink;
+    }
+
+    .containter {
+        background-color: lightsalmon;
+    }
+
+    .franch {
+        background-color: lightsalmon;
+    }
+
+    .footer {
+        background-color: lightslategray;
+    }
+
+    @media (max-width:320px) {
+        .containter {
+            display: flex;
+            flex-direction: column;
+        }
+        
+
+        .city {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+    }
+
+    @media (max-width:375px) {
+        .containter {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .city {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width:414px) {
+        .containter {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .city {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+
+</html>
