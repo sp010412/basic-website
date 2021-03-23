@@ -74,6 +74,7 @@ background-color: lightsalmon;
 
 h2 {
 background-color: lightpink;
+text-align: center;
 }
 .containter {
 background-color: lightsalmon;
@@ -87,8 +88,13 @@ background-color: lightsalmon;
 background-color: lightslategray;
 }
 
-.table, td {
-    border: 1px solid black;
+.table, th, td {
+    border: 5px solid lightslategray;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border :5px solid lightslategray;
 }
 
 @media (max-width:320px) {
