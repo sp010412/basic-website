@@ -45,14 +45,23 @@ flex: 2;
 
 .one {
 display: flex;
+flex-direction:column;
 }
 
 .two {
     display: flex;
+    flex-direction:column;
 }
 
 .three {
     display: flex;
+    flex-direction:column;
+}
+.yep {
+    display: flex;
+}
+h4 {
+    text-align: center;
 }
 
 .header {
@@ -65,11 +74,6 @@ background-color: lightsalmon;
 
 h2 {
 background-color: lightpink;
-text-align: center;
-}
-h4 {
-    text-align: center;
-    display:inline-block;
 }
 .containter {
 background-color: lightsalmon;
