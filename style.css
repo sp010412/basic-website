@@ -2,11 +2,12 @@ body {
 font-family: arial;
 font-size: 14px;
 }
-
 .header {
 display: flex;
 }
-
+.header {
+align-content:center ;
+}
 .containter {
 display: flex;
 }
@@ -86,6 +87,7 @@ background-color: lightsalmon;
 
 .footer {
 background-color: lightslategray;
+
 }
 
 .table, th, td {
@@ -96,6 +98,7 @@ table {
     border-collapse: collapse;
     border :5px solid lightslategray;
 }
+
 
 @media (max-width:320px) {
 .containter {
