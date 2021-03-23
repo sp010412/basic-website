@@ -166,4 +166,16 @@ p {
 .row-color3 {
   background-color: lightsalmon;
 }
-/* padding */
+/* css */
+.table, th, td {
+  border: 5px solid lightslategray;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border :5px solid lightslategray;
+}
+
+.yep {
+  display: flex;
+}
