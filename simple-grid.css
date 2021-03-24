@@ -179,3 +179,7 @@ table {
 .yep {
   display: flex;
 }
+
+.pad {
+margin-top: -18.50px;
+}
