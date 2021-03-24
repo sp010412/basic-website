@@ -1,19 +1,19 @@
 body {
-font-family: arial;
-font-size: 14px;
+    font-family: arial;
+    font-size: 14px;
 }
 
-
 .header {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .containter {
-display: flex;
+    display: flex;
 }
 
-.containter div {
+.containter {
+    padding: 5px;
 }
 
 .city {
@@ -21,15 +21,15 @@ display: flex;
 }
 
 .box-1 {
-flex: 2;
+    flex: 2;
 }
 
 .box-2 {
-flex: 2;
+    flex: 2;
 }
 
 .box-3 {
-flex: 2;
+    flex: 2;
 }
 
 .box-4 {
@@ -45,43 +45,47 @@ flex: 2;
 }
 
 .one {
-display: flex;
-flex-direction:column;
+    display: flex;
+    flex-direction: column;
 }
 
 .two {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .three {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
+
 .yep {
     display: flex;
 }
+
 h4 {
     text-align: center;
 }
 
 .header {
-background-color: lightslategray;
+    background-color: lightslategray;
 }
 
 .city {
-background-color: lightsalmon;
+    background-color: lightsalmon;
 }
+
 h1 {
     padding-right: 20px;
 }
 
 h2 {
-background-color: lightpink;
-text-align: center;
+    background-color: lightpink;
+    text-align: center;
 }
+
 .containter {
-background-color: lightsalmon;
+    background-color: lightsalmon;
 }
 
 .franch {
@@ -89,51 +93,137 @@ background-color: lightsalmon;
 }
 
 .footer {
-background-color: lightslategray;
-
+    background-color: lightslategray;
 }
 
 .table, th, td {
     border: 5px solid lightslategray;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
-    border :5px solid lightslategray;
+    border: 5px solid lightslategray;
 }
 
+.marg {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
 
 @media (max-width:320px) {
-.containter {
-display: flex;
-flex-direction: column;
-}
-.city {
-display: flex;
-flex-direction: column;
-padding: 0;
+    .containter {
+        display: flex;
+        flex-direction: column;
+    }
+    .city {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .header {
+        display: block;
+        justify-content: center;
+    }
+
+    .box-1 {
+        flex: 2;
+        order: 1;
+    }
+    .box-2 {
+        flex: 2;
+        order: 2;
+    }
+    .box-3 {
+        flex: 2;
+        order: 4;
+    }
+    .box-4 {
+        flex: 2;
+        order: 3;
+    }
+    .box-5 {
+        flex: 2;
+        order: 5;
+    }
+    .box-6 {
+        flex: 2;
+        order: 6;
+    }
 }
 
+@media (max-width:480px) {
+    .containter {
+        display: flex;
+        flex-direction: column;
+    }
+    .city {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        display: block;
+        justify-content: center;
+    }
+
+    .box-1 {
+        flex: 2;
+        order: 1;
+    }
+    .box-2 {
+        flex: 2;
+        order: 2;
+    }
+    .box-3 {
+        flex: 2;
+        order: 4;
+    }
+    .box-4 {
+        flex: 2;
+        order: 3;
+    }
+    .box-5 {
+        flex: 2;
+        order: 5;
+    }
+    .box-6 {
+        flex: 2;
+        order: 6;
+    }
 }
 
-@media (max-width:375px) {
-.containter {
-display: flex;
-flex-direction: column;
-}
-.city {
-display: flex;
-flex-direction: column;
-}
-}
 @media (max-width:920px) {
-.containter {
-display: flex;
-flex-direction: column;
-}
-.city {
-display: flex;
-flex-direction: column;
-}
-
+    .containter {
+        display: flex;
+        flex-direction: column;
+    }
+    .city {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1 {
+        flex: 2;
+        order: 1;
+    }
+    .box-2 {
+        flex: 2;
+        order: 2;
+    }
+    .box-3 {
+        flex: 2;
+        order: 4;
+    }
+    .box-4 {
+        flex: 1;
+        order: 3;
+    }
+    .box-5 {
+        flex: 2;
+        order: 5;
+    }
+    .box-6 {
+        flex: 2;
+        order: 6;
+    }
 }

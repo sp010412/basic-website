@@ -30,9 +30,9 @@ html, body {
 /* TYPOGRAPHY */
 
 p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.2;
 }
 
 .font-light {
@@ -94,11 +94,52 @@ p {
   display: table;
   clear: both;
 }
+@media only screen and (min-width: 320px) {
+  .container {
+    width: 80%;
+  }
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .order3 {
+    order: 4;
+  }
+  .order4 {
+    order: 3;
+  }
+  .order5 {
+    order: 5;
+  }
+  .order6 {
+    order: 6;
+  }
+}
 
 @media only screen and (min-width: 33.75em) {
   /* 540px */
   .container {
     width: 80%;
+  }
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .order3 {
+    order: 4;
+  }
+  .order4 {
+    order: 3;
+  }
+  .order5 {
+    order: 5;
+  }
+  .order6 {
+    order: 6;
   }
 }
 
@@ -166,20 +207,37 @@ p {
 .row-color3 {
   background-color: lightsalmon;
 }
+
 /* css */
+
 .table, th, td {
   border: 5px solid lightslategray;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
-  border :5px solid lightslategray;
+  border: 5px solid lightslategray;
 }
 
 .yep {
   display: flex;
+  /*margin-left: 10px;*/
 }
 
 .pad {
-margin-top: -18.50px;
+  margin-top: -18.50px;
+}
+
+.marg {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.pic {
+  padding-right: 1px;
+}
+
+.last {
+  padding: 5px;
 }
