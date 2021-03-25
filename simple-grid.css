@@ -198,6 +198,9 @@ table {
 .pad {
   margin-top: -18.50px;
 }
+.ok {
+  border: 1px solid black;
+}
 
 .marg {
   padding-left: 5px;
@@ -260,30 +263,14 @@ table {
   .order6{
     order:6;
   }
+}
+
   
 
 @media (max-width:960px) {
   .city {
       display: flex;
       flex-direction: column;
-  }
-  .order1 {
-    order:1 ;
-  }
-  .order2 {
-    order:2 ;
-  }
-  .order3 {
-    order:4 ;
-  }
-  .order4 {
-    order:3 ;
-  }
-  .order5 {
-    order:5 ;
-  }
-  .order6{
-    order:6;
   }
 
 }
