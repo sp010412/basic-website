@@ -191,7 +191,9 @@ table {
 .yep {
   display: flex;
   /*margin-left: 10px;*/
+  border: 1px solid black;
 }
+
 
 .pad {
   margin-top: -18.50px;
