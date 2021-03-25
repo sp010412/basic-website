@@ -19,6 +19,13 @@ body {
 .city {
     display: flex;
 }
+.lol {
+    display: flex;
+    flex-direction: column;
+}
+.lol2 {
+    margin-top: 50px;
+}
 
 .box-1 {
     flex: 2;
@@ -110,6 +117,9 @@ table {
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 4px;
+}
+.wow {
+    width: 80px;
 }
 
 @media (max-width:320px) {

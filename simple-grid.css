@@ -94,27 +94,12 @@ p {
   display: table;
   clear: both;
 }
+
+
+
 @media only screen and (min-width: 320px) {
   .container {
     width: 80%;
-  }
-  .order1 {
-    order: 1;
-  }
-  .order2 {
-    order: 2;
-  }
-  .order3 {
-    order: 4;
-  }
-  .order4 {
-    order: 3;
-  }
-  .order5 {
-    order: 5;
-  }
-  .order6 {
-    order: 6;
   }
 }
 
@@ -123,24 +108,7 @@ p {
   .container {
     width: 80%;
   }
-  .order1 {
-    order: 1;
-  }
-  .order2 {
-    order: 2;
-  }
-  .order3 {
-    order: 4;
-  }
-  .order4 {
-    order: 3;
-  }
-  .order5 {
-    order: 5;
-  }
-  .order6 {
-    order: 6;
-  }
+  
 }
 
 @media only screen and (min-width: 45em) {
@@ -192,8 +160,8 @@ p {
     width: 75%;
     max-width: 60rem;
   }
-}
 
+}
 /* Background colors*/
 
 .row-color1 {
@@ -234,10 +202,86 @@ table {
   padding-top: 5px;
 }
 
-.pic {
-  padding-right: 1px;
-}
-
 .last {
   padding: 5px;
+}
+.lol2 {
+ padding-top: 40px;
+}
+
+@media (max-width:320px) {
+  .city {
+      display: flex;
+      flex-direction: column;
+  }
+  .order1 {
+    order:1 ;
+  }
+  .order2 {
+    order:2 ;
+  }
+  .order3 {
+    order:4 ;
+  }
+  .order4 {
+    order:3 ;
+  }
+  .order5 {
+    order:5 ;
+  }
+  .order6{
+    order:6;
+  }
+}
+
+@media (max-width:720px) {
+  
+  .city {
+      display: flex;
+      flex-direction: column;
+  }
+  .order1 {
+    order:1 ;
+  }
+  .order2 {
+    order:2 ;
+  }
+  .order3 {
+    order:4 ;
+  }
+  .order4 {
+    order:3 ;
+  }
+  .order5 {
+    order:5 ;
+  }
+  .order6{
+    order:6;
+  }
+  
+
+@media (max-width:960px) {
+  .city {
+      display: flex;
+      flex-direction: column;
+  }
+  .order1 {
+    order:1 ;
+  }
+  .order2 {
+    order:2 ;
+  }
+  .order3 {
+    order:4 ;
+  }
+  .order4 {
+    order:3 ;
+  }
+  .order5 {
+    order:5 ;
+  }
+  .order6{
+    order:6;
+  }
+
 }
